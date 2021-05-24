@@ -1,6 +1,10 @@
 
 amount=int(raw_input())
 print "total bill is",amount
+c=0
+if(amount<1000):
+    print("sorry! No discount on your bill")
+    print"u need to buy ",(1000-amount),"to get 10% discount"
 if(amount>=1000 and amount<=2000):
   c=(amount*10)/100
   print "Discount on the bill amount is",c
@@ -20,4 +24,11 @@ print "amount to be paid",(amount-c)
 total bill is 6000
 Discount on the bill amount is 2400
 amount to be paid 3600
+'''
+'''
+333
+total bill is 333
+sorry! No discount on your bill
+u need to buy  667 to get 10% discount
+amount to be paid 333
 '''
