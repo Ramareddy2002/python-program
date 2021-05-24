@@ -29,6 +29,6 @@ amount to be paid 3600
 333
 total bill is 333
 sorry! No discount on your bill
-u need to buy  667 to get 10% discount
+u need to buy  667 more to get 10% discount
 amount to be paid 333
 '''
