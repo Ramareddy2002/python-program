@@ -13,3 +13,4 @@ elif(amount>3000 and amount<=5000):
 elif(amount>5000):
   c=(amount*40)/100
   print "Discount on the bill amount is",c
+print "amount to be paid",(amount-c)
