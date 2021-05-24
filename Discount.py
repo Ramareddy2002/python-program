@@ -4,7 +4,7 @@ print "total bill is",amount
 c=0
 if(amount<1000):
     print("sorry! No discount on your bill")
-    print"u need to buy ",(1000-amount),"to get 10% discount"
+    print"you need to buy ",(1000-amount)," more to get 10% discount"
 if(amount>=1000 and amount<=2000):
   c=(amount*10)/100
   print "Discount on the bill amount is",c
