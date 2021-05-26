@@ -5,7 +5,7 @@ if(a<=14):
   else:
     print("10 >= a <=15")
 else:
-  print("a > 10")
+  print("a > 15")
 
 '''
 case 1:-
