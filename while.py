@@ -3,6 +3,9 @@ i=1
 while i<=10:
     print i
     i+=1
+print("after the while loop thge value of i is {}".format(i))
+print "after the while loop thge value of i is %d" %i
+
 
 #output
 '''
@@ -16,4 +19,6 @@ while i<=10:
 8
 9
 10
+after the while loop thge value of i is 11
+after the while loop thge value of i is 11
 '''
