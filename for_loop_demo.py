@@ -29,3 +29,12 @@ for i in range(start,end):
 9
 10
 '''
+print("3rd case")
+start=2
+end=18
+step=2
+for i in range(start,end,step):
+    print i,
+'''
+2 4 6 8 10 12 14 16
+'''
