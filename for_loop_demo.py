@@ -1,35 +1,19 @@
-print("1st case")
+print("        1st case")
 end=10
 for i in range(end):
-    print(i)
+    print i,
 '''
-output:-
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
+0 1 2 3 4 5 6 7 8 9
 '''
-print("2nd case")
+print("\n      2nd case")
 start=4
 end=11
 for i in range(start,end):
-    print(i)
+    print i,
 '''
-4
-5
-6
-7
-8
-9
-10
+4 5 6 7 8 9 10
 '''
-print("3rd case")
+print("\n      3rd case")
 start=2
 end=18
 step=2
